@@ -1,0 +1,66 @@
+header #toggle-menu
+{
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+}
+
+header > nav > ul
+{
+	max-height: 0px;
+	overflow: hidden;
+  
+	padding: 0;
+	margin: 0;
+	
+	list-style: none;
+  
+    transition-delay: 0s;
+    transition-duration: 0.7s;
+    transition-property: max-height;
+    transition-timing-function: ease-out;
+}
+
+header > input:focus + nav > label
+{
+  color: red; 
+}
+
+header > input:checked + nav > ul
+{
+  display: block;
+  max-height: 100px;
+  transition-timing-function: ease-in-out;
+}
+li
+{
+  color: red;
+}
+input + nav > ul > li
+{
+  opacity:0;
+  transform:translateY(-100%);
+  transition-delay: 0s;
+    transition-duration: 0.5s;
+    transition-property: opacity, transform;
+    transition-timing-function: linear, ease-out;
+}
+input:checked + nav > ul > li
+{
+  transform:translateY(0);
+  opacity:1;
+  
+}
+
+input:checked + nav > ul > li:nth-last-of-type(1)
+{
+  transition-delay: 0.15s;
+}
+input:checked + nav > ul > li:nth-last-of-type(2)
+{
+  transition-delay: 0.10s;
+}
+input:checked + nav > ul > li:nth-last-of-type(3)
+{
+  transition-delay: 0.08s;
+}

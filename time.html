@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="time.css">
+  <link rel="shortcut icon" href="img/grill-09.png" >
+
+  <title>Bar&Grill</title>
+</head>
+<body class="flexbox-target"  style="opacity:0; transition:.5s;">
+        <form name="button1" action="">
+        <div class="flexbox-target">
+
+            <div class="head">
+                    
+                        
+                    <div class="back"><a href="table.html"><img class="back" src="img/back.png"/></a></div>
+                    
+                    
+                <div class="headtext">Выберите время</div>
+                <div class="next">Далее</div>
+                
+            </div>  
+
+            <div class="description">
+                <div class="description1">
+                        <img class="icon" src="img/grill-04.png"/><div id="description11" style="padding-top: 5px;">Дата:</div>
+                    <div id="description12">
+                            <!-- <script src="calendar_ru.js" type="text/javascript"></script>
+
+                            <input type="text" value="17-06-2018" onfocus="this.select();lcs(this)"
+                                onclick="event.cancelBubble=true;this.select();lcs(this)"> -->
+                            
+                            <input id="date" type="date">
+                            
+                    </div>
+                </div>
+                <div class="description2">
+                        <img class="icon" src="img/grill-02.png"/><div id="description21" style="padding-top: 5px;">Время начала:</div>
+                    <div id="description22">
+                            <select name="select">
+                                    <option selected value="s1">09:00</option>
+                                    <option value="s2">10:00</option>
+                                    <option value="s3">11:00</option>
+                                    <option value="s4">12:00</option>
+                                    <option value="s4">13:00</option>
+                                    <option value="s4">14:00</option>
+                                    <option value="s4">15:00</option>
+                                    <option value="s4">16:00</option>
+                                    <option value="s4">17:00</option>
+                                    <option value="s4">18:00</option>
+                                    <option value="s4">19:00</option>
+                                    <option value="s4">20:00</option>
+                                   </select>
+                    </div>
+                </div>
+                <div class="description3">
+                        <img class="icon" src="img/grill-01.png"/><div id="description31" style="padding-top: 5px;">Период времени:</div>
+                        <div id="description32">
+                                <select name="select2">
+                                        <option selected value="s1">на 2 часа</option>
+                                        <option value="s2">на 1 час</option>
+                                        <option value="s3">на 3 часа</option>
+                                        <option value="s4">на 4 часа</option>
+                                        <option value="s4">на весь день</option>
+                                        
+                                       </select>
+                        </div>
+                    </div>
+            </div>        
+            
+
+            
+
+        </div>  
+        <footer>
+            
+            <button type ="submit" id="book">Забронировать</button>
+            <script src="time.js"></script>    
+        </footer> 
+
+        
+
+    </form> 
+    <script src="https://code.jquery.com/jquery-3.0.0.js"></script>
+<script src="https://code.jquery.com/jquery-migrate-3.0.1.js"></script>
+    <script>
+            $(document).ready(function() {    
+              $("body").css("opacity", "1");
+            });
+     </script> 
+</body>
+</html>

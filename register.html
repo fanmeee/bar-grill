@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="register.css">
+  <link rel="shortcut icon" href="img/grill-09.png" >
+
+  <title>Bar&Grill</title>
+</head>
+<body class="flexbox-target" style="opacity:0; transition:.5s;">
+<form name="button1">
+        <div class="flexbox-target">
+
+            <div></div>  
+
+            <div class="bar-grill-1">
+                bar&grill
+            </div>  
+
+            <div class="text">Сначала зарегистрируйтесь<div class="text2">или войдите</div></div>  
+
+            <div>
+                <button type ="submit" id="registration">Зарегистрироваться</button>
+            </div>  
+
+            <div>
+                <button type ="button" id="enter">Войти</button>
+            </div>
+
+        </div>     
+        <script src="register.js"></script>  
+    </form>     
+    
+    <script src="https://code.jquery.com/jquery-3.0.0.js"></script>
+<script src="https://code.jquery.com/jquery-migrate-3.0.1.js"></script>
+    <script>
+            $(document).ready(function() {    
+              $("body").css("opacity", "1");
+            });
+     </script> 
+</body>
+</html>

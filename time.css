@@ -1,0 +1,192 @@
+body.flexbox-target {
+    background-color: white;
+    color: white;
+    margin: 0;
+}
+/* div{
+    border: 1px;
+    border-style: solid;
+} */
+div.flexbox-target {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    background-color: #04508B;
+    color: white;   
+    
+    
+}
+
+div.head{
+    display: flex;
+    flex-direction: row;
+
+    font-size: 36pt;
+    /* font-style: italic; */
+    font-family: "Myriad Hebrew", sans-serif;
+    padding-top: 3vh;
+    padding-bottom: 2vh;
+    
+
+}
+
+img.back{
+    display:block;
+    width: auto;
+    height: 20px;
+}
+img.pict{
+    display:inline-block;
+    width: 100%;
+    height: auto;
+    max-width: 900px;
+    
+}
+
+div.back{
+    padding-left: 3%;
+}
+div.headtext{
+    font-size: 14pt;
+    font-family: "Arial", sans-serif;
+    margin: auto;
+    
+}
+div.next{
+    font-size: 12pt;
+    font-family: "Arial", sans-serif;
+    padding-right: 3%;
+    color: #04508B;
+}
+
+
+div.pict{
+    text-align: center;
+}
+div.description{
+    display: flex;
+    flex-direction: column;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 18px;
+    
+    background-color: white;
+    color: black;
+    font-size: 12pt;
+    font-family: "Arial", sans-serif;
+    position: relative; /* Фиксированное положение */
+    
+
+}
+div.description1{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 8px;
+    padding-bottom: 6px;
+    height: 18pt;
+    border: 2px;
+    border-bottom-style: groove;
+}
+div.description2{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 8px;
+    padding-bottom: 6px;
+    height: 18pt;
+    border: 2px;
+    border-bottom-style: groove;
+}
+div.description3{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 8px;
+    padding-bottom: 6px;
+    height: 18pt;
+    
+}
+
+#description12{
+  margin-left: 8px;
+  position: fixed; /* Фиксированное положение */   
+  right: 4%;
+}
+#description22{
+    margin-left: 8px;
+    position: fixed; /* Фиксированное положение */   
+  right: 4%;
+      
+  }
+  #description32{
+    margin-left: 8px;
+    position: fixed; /* Фиксированное положение */   
+  right: 4%;
+      
+  }
+  footer{
+    display: flex;
+    flex-direction: column;
+    position: fixed; /* Фиксированное положение */
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+select, input{
+    color: black;
+    font-size: 12pt;
+    font-family: "Arial", sans-serif;
+
+}
+
+
+#book{
+    background-color:  #04508B;
+    color: white;
+    font-size: 14pt;
+    font-family: "Arial", sans-serif;
+    
+    border: none;
+    height: 60px;;
+}
+#date{
+    font-size: 12pt;
+    font-family: "Arial", sans-serif;
+}
+
+
+#calendar {
+    width: 100%;
+    font: monospace;
+    line-height: 1.2em;
+    font-size: 15px;
+    text-align: center;
+    
+  }
+  #calendar thead tr:last-child {
+    font-size: small;
+    font-size: medium;
+    color: rgb(85, 85, 85);
+  }
+  #calendar thead tr:nth-child(1) td:nth-child(2) {
+    color: rgb(50, 50, 50);
+  }
+  #calendar thead tr:nth-child(1) td:nth-child(1):hover, #calendar thead tr:nth-child(1) td:nth-child(3):hover {
+    cursor: pointer;
+  }
+  #calendar tbody td {
+    color: rgb(44, 86, 122);
+  }
+  #calendar tbody td:nth-child(n+6), #calendar .holiday {
+    color: rgb(231, 140, 92);
+  }
+  #calendar tbody td.today {
+    background: rgb(220, 0, 0);
+    color: #fff;
+  }
+
+  img.icon{
+    height: 25px;
+    opacity: 0.5;
+    padding-left: 5px;
+    padding-right: 15px;
+    
+}

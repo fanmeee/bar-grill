@@ -1,0 +1,59 @@
+body.flexbox-target {
+    background-color: #04508B;
+}
+/* div{
+    border: 1px;
+    border-style: solid;
+} */
+div.flexbox-target {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0, 0, 0, 0;
+    padding: 0, 0, 0, 0;
+    color: white;   
+    
+}
+
+div.bar-grill-1{
+    font-size: 36pt;
+    font-style: italic;
+    font-family: "Myriad Hebrew", sans-serif;
+    padding-top:20vh;
+    padding-bottom: 10vh;
+    
+
+}
+
+div.text{
+    font-size: 18pt;
+    font-family: "Arial", sans-serif;
+    text-align: center;
+    padding-bottom: 20vh;
+}
+div.text2{
+    padding-top: 5px;
+    font-size: 14pt;
+    
+}
+
+button{
+    border: 0px;
+    border: 0px;
+    width: 200px;
+    font-size: 14pt;
+    padding: 8px;
+    margin: 5px;
+    color: #04508B;
+}
+
+#registration{
+    background-color: white;
+}
+#enter{
+    background-color:  #04508B;
+    color:White;
+}
+
+    
+   

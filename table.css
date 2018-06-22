@@ -1,0 +1,176 @@
+body.flexbox-target {
+    background-color: white;
+    color: white;
+    margin: 0;
+}
+/* div{
+    border: 1px;
+    border-style: solid;
+} */
+div.flexbox-target {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* background-color: #04508B; */
+    color: white;   
+    
+    
+}
+
+div.head{
+    display: flex;
+    flex-direction: row;
+
+    font-size: 36pt;
+    /* font-style: italic; */
+    font-family: "Myriad Hebrew", sans-serif;
+    padding-top: 3vh;
+    padding-bottom: 2vh;
+    background-color: #04508B;
+
+}
+
+img.back{
+    display:block;
+    width: auto;
+    height: 20px;
+}
+img.pict{
+    display:inline-block;
+    width: 100%;
+    height: auto;
+    max-width: 900px;
+    
+    
+    
+}
+.s1 {  
+    position:absolute;left:80%; top:25vh;
+    opacity: 0.5;
+    height: 70px;
+           
+    
+ } 
+ .s2 {  
+    position:absolute;left:15%; top:25vh;
+    opacity: 0.5;
+    height: 70px;
+           
+    
+ } 
+
+/* img{
+    position: relative;
+}  */
+
+div.back{
+    padding-left: 3%;
+}
+div.headtext{
+    font-size: 14pt;
+    font-family: "Arial", sans-serif;
+    margin: auto;
+    
+}
+div.next{
+    font-size: 12pt;
+    font-family: "Arial", sans-serif;
+    padding-right: 3%;
+    
+}
+#book{
+    font-size: 12pt;
+    font-family: "Arial", sans-serif;
+    padding-right: 3%;
+    background-color: #04508B;
+    color: white;
+    border-style: none;
+    
+}
+
+div.pict{
+    text-align: center;
+    
+}
+footer.description{
+    display: flex;
+    flex-direction: column;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 12px;
+    
+    background-color: white;
+    color: black;
+    font-size: 12pt;
+    font-family: "Arial", sans-serif;
+    position: relative; /* Фиксированное положение */
+    
+
+}
+div.description1{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 8px;
+    padding-bottom: 6px;
+    height: 18pt;
+    border: 2px;
+    border-bottom-style: groove;
+}
+div.description2{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 8px;
+    padding-bottom: 6px;
+    height: 18pt;
+    border: 2px;
+    border-bottom-style: groove;
+}
+div.description3{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 8px;
+    padding-bottom: 6px;
+    
+    
+    
+}
+#description11{
+    padding-top: 3px;
+  
+      
+  }
+#description12{
+  margin-left: 8px;
+  position: fixed; /* Фиксированное положение */
+    
+    right: 4%;
+    padding-top: 3px;
+
+    
+}
+#description22{
+    margin-left: 8px;
+    position: fixed; /* Фиксированное положение */
+    
+    right: 4%;
+    padding-top: 3px;
+
+      
+  }
+  #description32{
+    margin-left: 0px;
+    
+    padding-top: 3px;
+
+      
+  }
+  
+
+  img.icon{
+      height: 25px;
+      opacity: 0.5;
+      padding-left: 5px;
+      padding-right: 15px;
+      
+  }
+

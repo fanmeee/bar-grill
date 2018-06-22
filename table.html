@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="table.css">
+  <link rel="shortcut icon" href="img/grill-09.png" >
+
+  <title>Bar&Grill</title>
+</head>
+<body class="flexbox-target" >
+    <form name="button1">
+        <div class="flexbox-target" >
+
+                <div class="head">
+                        
+                            
+                            <div class="back"><a href="index.html"><img class="back" src="img/back.png"/></a></div>
+                        
+                        
+                    <div class="headtext">Выберите столик</div>
+                    <div class="next"> <button type ="submit" id="book">Далее</button> </div>
+                    
+                </div>  
+    <div style="opacity:0; transition:.5s; background-color: white;">
+            <div class="pict">
+                    <a href="table2.html">
+                            <img class="pict" src="img/table1.jpg"/>
+                            <img class="s1" src="img/s2.png"/>
+                            <img class="s2" src="img/s1.png"/>
+                    </a>
+                    
+            </div>  
+
+            <footer class="description">
+                <div class="description1">
+                    <img class="icon" src="img/grill-05.png"/> <div id="description11">  Стол:</div>
+                    <div id="description12">Стол 7</div>
+                </div>
+                <div class="description2">
+                    <img class="icon" src="img/grill-06.png"/> <div id="description21" style="padding-top: 3px;  ">Кол-во человек:</div>
+                    <div id="description22">4 чел.</div>
+                </div>
+                
+                <div  class="description3">
+                    <img class="icon" src="img/grill-07.png"/>
+                    <div id="description31" ></div>
+                    <div id="description32">
+                        Стол расположен у окна. Подходит для большой компании.
+                    </div>
+                    
+                    
+                </div>
+            </footer>        
+
+    </div>
+                
+    
+                
+    
+        </div>       
+        <script src="table.js"></script>
+    </form>
+            
+    <script src="https://code.jquery.com/jquery-3.0.0.js"></script>
+<script src="https://code.jquery.com/jquery-migrate-3.0.1.js"></script>
+    <script>
+            $(document).ready(function() {    
+              $("div").css("opacity", "1");
+            });
+     </script> 
+</body>
+</html>
